@@ -14,7 +14,7 @@ public class SimpleCalculator extends JFrame {
 
     SimpleCalculator() {
 
-
+        setTitle("Simple Calculator");
 
         btnCompute.addActionListener(new ActionListener() {
             @Override

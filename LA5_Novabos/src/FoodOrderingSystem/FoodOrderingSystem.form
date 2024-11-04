@@ -181,15 +181,6 @@
     </children>
   </grid>
   <buttonGroups>
-    <group name="food_goup">
-      <member id="c781f"/>
-      <member id="c781f"/>
-      <member id="98628"/>
-      <member id="7d20b"/>
-      <member id="27d31"/>
-      <member id="728e4"/>
-      <member id="b1dce"/>
-    </group>
     <group name="discount_group">
       <member id="ebf28"/>
       <member id="ebf28"/>

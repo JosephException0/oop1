@@ -6,17 +6,18 @@ import java.awt.event.ActionListener;
 
 public class LeapYearChecker extends  JFrame{
     private JPanel Message;
-    private JTextField yeartextfield;
+    private JTextField yearTextField;
     private JButton checkYearButton;
 
     LeapYearChecker(){
+        setTitle("Leap Year Checker");
         checkYearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(yeartextfield.getText().isEmpty()){
+                if(yearTextField.getText().isEmpty()){
                     JOptionPane.showMessageDialog(null, "Enter year");
                 }
-                int year= Integer.parseInt(yeartextfield.getText());
+                int year= Integer.parseInt(yearTextField.getText());
 
                 if(year % 4 == 0){
                     if(year % 100 == 0){
